@@ -1,1 +1,118 @@
+/* General Body Styling */
+.body-class {
+    background-color: #f4f4f4; /* subtle background color */
+    font-family: Arial, sans-serif; /* clear, readable font */
+    color: #333; /* contrasting text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+.header-class {
+    background-color: #0056b3; /* contrasting background color */
+    color: white; /* text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Bar Styling */
+.nav-class {
+    background-color: #333; /* dark background for nav */
+    color: white; /* text color */
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-class a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 15px;
+}
+
+.nav-class a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+.nav-class .active {
+    font-weight: bold; /* active page link in bold */
+}
+
+/* Section Titles Styling */
+.title-class, .section-title-class {
+    color: #0056b3; /* distinct color for titles */
+    font-size: 1.5em;
+}
+
+/* Text Styling */
+.text-class {
+    color: #444; /* text color contrasting with background */
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* Image Styling */
+.image-class {
+    border: 5px solid #ddd; /* border color complementing design */
+    padding: 5px;
+    max-width: 100%; /* responsive image */
+    height: auto;
+}
+
+/* Form and Button Styling */
+.form-class {
+    margin: 20px 0;
+}
+
+.form-class input, .form-class textarea {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button-class {
+    background-color: #0056b3; /* button background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-class:hover {
+    background-color: #333;
+}
+
+/* Footer Styling */
+.footer-class {
+    background-color: #333; /* footer background color */
+    color: white; /* text color */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Accessibility Enhancements */
+img[alt] {
+    alt: "image description"; /* ensure all images have alt text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-class {
+        padding: 10px;
+        text-align: left;
+    }
+
+    .image-class {
+        max-width: 90%;
+    }
+
+    .text-class, .button-class {
+        font-size: 1em;
+    }
+}
 
